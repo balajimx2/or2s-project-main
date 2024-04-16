@@ -62,7 +62,7 @@ include("../db/functions.php");
 <body>
     <header class="header">
 		<div class="header" id="myHeader">
-			<span class="logo"><a href="../index.php">OR2S</a></span>
+			<span class="logo"><a href="../index.php">RailwayReservationSystem</a></span>
 			<div class="menu">
 				<ul>
 					<li><a href="../index.php"><i class="fa fa-home"></i> HOME</a></li>

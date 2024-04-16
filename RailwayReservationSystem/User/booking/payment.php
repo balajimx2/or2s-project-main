@@ -25,7 +25,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/payment.css' /
 	<meta name="description" content="Online Railway Reservation System">
 	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OR2S | Book</title>
+	<title>RailwayReservationSystem | Book</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
 	 crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -33,7 +33,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/payment.css' /
 <body>
 	<header class="header">
 		<div class="header" id="myHeader">
-			<span class="logo"><a href="../index.php">OR2S</a></span>
+			<span class="logo"><a href="../index.php">RailwayReservationSystem</a></span>
 			<div class="menu">
 				<ul>
 					<li><a href="../index.php"><i class="fa fa-home"></i> HOME</a></li>
@@ -49,7 +49,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/payment.css' /
 						?>
 					</li>
 					<div class="logoutbtn">
-						<li><a href="../or2s/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
+						<li><a href="../RailwayReservationSystem/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
 					</div>
 					<?php }else { ?>
 						<div class="button">

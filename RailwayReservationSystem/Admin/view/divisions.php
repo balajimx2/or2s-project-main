@@ -8,7 +8,7 @@ $div_data = [];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Divisions</title>
+    <title>RailwayReservationSystem | Divisions</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@ $div_data = [];
           </nav>
           <div id="title">
             <h1>Divisions</h1>
-            <p>SER Railway Divisions - OR2S</p>
+            <p>SER Railway Divisions - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add Division</button>

@@ -14,7 +14,7 @@
 
 	<div class="form-container">
 		<div id="keys">
-			<img id="logo" src="/or2s/User/images/forgot/tumblr_ngdvhpKbrD1qea4hso1_400.gif">
+			<img id="logo" src="/RailwayReservationSystem/User/images/forgot/tumblr_ngdvhpKbrD1qea4hso1_400.gif">
 		</div>
 
 		<form action="" method="post">

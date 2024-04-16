@@ -100,8 +100,8 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
 	<meta name="description" content="Online Railway Reservation System">
 	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OR2S | Reservation</title>
-	<link rel="icon" type="image/x-icon" href="/or2s/User/images/logo/favicon.png">
+	<title>RailwayReservationSystem | Reservation</title>
+	<link rel="icon" type="image/x-icon" href="/RailwayReservationSystem/User/images/logo/favicon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
 	 crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -110,7 +110,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
 	<header class="header">
 		<div class="header" id="myHeader">
 			<span class="logo"><a href="../index.php">
-				<img src="/or2s/User/images/logo/or2s_black.png" width="150px">
+				<img src="/RailwayReservationSystem/User/images/logo/RailwayReservationSystem_black.png" width="150px">
 			</a></span>
 			<div class="menu" style="
     margin-left: 20px;">
@@ -124,11 +124,11 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
 				
 					<li class="user">
 						<?php if(isset($user_data['f_name'])) {
-							echo '<li><a href="/or2s/User/booking/myticket.php" class=""><i class="fa fa-ticket"></i> MY TICKETS</a></li><li><i class="fa fa-user"></i><b> Welcome, </b>'.$user_data['f_name'].' '.$user_data['l_name'].'</li>';
+							echo '<li><a href="/RailwayReservationSystem/User/booking/myticket.php" class=""><i class="fa fa-ticket"></i> MY TICKETS</a></li><li><i class="fa fa-user"></i><b> Welcome, </b>'.$user_data['f_name'].' '.$user_data['l_name'].'</li>';
 						?>
 					</li>
 					<div class="logoutbtn">
-						<li><a href="/or2s/User/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
+						<li><a href="/RailwayReservationSystem/User/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
 					</div>
 					<?php }else { ?>
 						<div class="button">
@@ -143,11 +143,11 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
 	
     <section>
     	<div class="form-container">
-			<form action="/or2s/User/booking/myticket.php" method="POST">
+			<form action="/RailwayReservationSystem/User/booking/myticket.php" method="POST">
 			<div class="title">
 					<div class="row">
 						<div class="column">
-							<button  class="chan" id="pd"><a href="/or2s/User/booking/bookticket.php?train_id=18004&train_name=Rani%20Shiromoni%20Express&arr_time=12:10:00.020000&dept_time=03:10:00.634000&date=2023-04-08&from=1&to=19&class=3&quota=3">1</a></button>
+							<button  class="chan" id="pd"><a href="/RailwayReservationSystem/User/booking/bookticket.php?train_id=18004&train_name=Rani%20Shiromoni%20Express&arr_time=12:10:00.020000&dept_time=03:10:00.634000&date=2023-04-08&from=1&to=19&class=3&quota=3">1</a></button>
 							<p id="pdl">Passenger Details</p>
 						</div>
 						<div class="column">
@@ -155,7 +155,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
 							<p id="rjl">Review Journey</p>
 						</div>
 						<div class="column">
-						    <button  class="chan" id="pm"><a href="/or2s/User/payment/creditCard.php">3</a></button>
+						    <button  class="chan" id="pm"><a href="/RailwayReservationSystem/User/payment/creditCard.php">3</a></button>
 							<p id="pml">Payment</p>
 						</div>
 					</div>			
@@ -312,7 +312,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/booking.css' /
                }
               </style>
 
-				<button style="float: right;"   class="form-btn"><a href="/or2s/User/payment/creditCard.php">Next</a></button>
+				<button style="float: right;"   class="form-btn"><a href="/RailwayReservationSystem/User/payment/creditCard.php">Next</a></button>
 			</form>
 		</div>
 		

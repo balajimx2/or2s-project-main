@@ -8,7 +8,7 @@ $div_data = [];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | 404 Page</title>
+    <title>RailwayReservationSystem | 404 Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">

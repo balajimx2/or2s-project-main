@@ -8,7 +8,7 @@ $train_data = [];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Trains</title>
+    <title>RailwayReservationSystem | Trains</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +40,7 @@ $train_data = [];
           </nav>
           <div id="title">
             <h1>Train Lists</h1>
-            <p>SER Expresses - OR2S</p>
+            <p>SER Expresses - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add Train</button>

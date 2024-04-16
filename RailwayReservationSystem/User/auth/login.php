@@ -41,7 +41,7 @@ if(isset($_POST['g-recaptcha-response'])){
 							if($user_data['password'] == md5($password)){
 			
 								$_SESSION['id'] = $user_data['id'];
-								header("Location: /or2s/User/index.php");
+								header("Location: /RailwayReservationSystem/User/index.php");
 								die;
 							}
 						}
@@ -67,7 +67,7 @@ if(isset($_POST['g-recaptcha-response'])){
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
-	<link rel="icon" type="image/x-icon" href="/or2s/User/images/logo/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/RailwayReservationSystem/User/images/logo/favicon.png">
 	<link rel="stylesheet" type="text/css" href="./css/login.css" />
 	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />

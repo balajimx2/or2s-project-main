@@ -6,7 +6,7 @@ include("../../User/db/connection.php");
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Timetable</title>
+    <title>RailwayReservationSystem | Timetable</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +36,7 @@ include("../../User/db/connection.php");
           </nav>
           <div id="Title">
           <h1>Train Timetable</h1>
-          <p>Train Timetable - OR2S</p>
+          <p>Train Timetable - RailwayReservationSystem</p>
           </div>
           
           <!-- Add Button -->
@@ -309,7 +309,7 @@ include("../../User/db/connection.php");
       function displayData(){
         var displayData="true";
         $.ajax({
-          url:"/or2s/Admin/controller/display/displayTimes.php",
+          url:"/RailwayReservationSystem/Admin/controller/display/displayTimes.php",
           type:"post",
           data:{
             displaySend:displayData
@@ -332,7 +332,7 @@ include("../../User/db/connection.php");
         var daysAdd=$('#days').val();
 
         $.ajax({
-          url:"/or2s/Admin/controller/add/addtime.php",
+          url:"/RailwayReservationSystem/Admin/controller/add/addtime.php",
           type: 'post',
           data:{
             train:trainAdd,
@@ -355,7 +355,7 @@ include("../../User/db/connection.php");
       //Delete
       function deleteData(deleteid){
         $.ajax({
-          url:"/or2s/Admin/controller/delete/deleteTime.php",
+          url:"/RailwayReservationSystem/Admin/controller/delete/deleteTime.php",
           type:'post',
           data:{
             deletesend:deleteid
@@ -370,7 +370,7 @@ include("../../User/db/connection.php");
       //update
       function getData(updateid){
         $('#hiddendata').val(updateid);
-        $.post("/or2s/Admin/controller/update/updateTime.php",{updateid:updateid},function(data,status){
+        $.post("/RailwayReservationSystem/Admin/controller/update/updateTime.php",{updateid:updateid},function(data,status){
           var timeid=JSON.parse(data);
           $('#updatetrain').val(timeid.train_id);
           $('#updatefrom').val(timeid.source);
@@ -395,7 +395,7 @@ include("../../User/db/connection.php");
         var updatedays=$('#updatedays').val();
         var hiddendata=$('#hiddendata').val();
 
-        $.post("/or2s/Admin/controller/update/updateTime.php",{
+        $.post("/RailwayReservationSystem/Admin/controller/update/updateTime.php",{
           updatetrain:updatetrain,
           updatefrom:updatefrom,
           updateto:updateto,

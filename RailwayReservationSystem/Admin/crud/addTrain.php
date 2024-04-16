@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
         <div class="col-sm-10 mt-5">
           <div id="title">
             <h1>Add Train</h1>
-            <p>SER Express Railway Trains - OR2S</p>
+            <p>SER Express Railway Trains - RailwayReservationSystem</p>
           </div>
             <div class="edit-container">
                 <form>

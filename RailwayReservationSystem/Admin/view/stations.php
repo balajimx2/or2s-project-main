@@ -8,7 +8,7 @@ $stations_data = [];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Stations</title>
+    <title>RailwayReservationSystem | Stations</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@ $stations_data = [];
         <div class="col-sm-10 mt-5">
           <div id="title">
             <h1>Station Lists</h1>
-            <p>SER Railway Stations - OR2S</p>
+            <p>SER Railway Stations - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add Station</button>

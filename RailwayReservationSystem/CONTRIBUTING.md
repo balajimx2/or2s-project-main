@@ -1,6 +1,6 @@
-# Contributing to or2s-project
+# Contributing to RailwayReservationSystem-project
 
-Thank you for considering contributing to the or2s-project! We appreciate your time and effort.
+Thank you for considering contributing to the RailwayReservationSystem-project! We appreciate your time and effort.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Before you start contributing, please make sure you have:
 
 2. **Clone your fork:**
 
-   `git clone https://github.com/rak3xh/or2s-project.git`
+   `git clone https://github.com/rak3xh/RailwayReservationSystem-project.git`
 
 3. **Create a new branch:**
 
@@ -53,7 +53,7 @@ Before you start contributing, please make sure you have:
     Once your changes are approved, they will be merged into the main branch.
 
 
-# Thank you for contributing to or2s-project!
+# Thank you for contributing to RailwayReservationSystem-project!
 # HAPPY HACKING 👌
 
 

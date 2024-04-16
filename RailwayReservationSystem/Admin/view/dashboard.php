@@ -11,7 +11,7 @@ if(isset($_SESSION['email'])){
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Admin Dashboard</title>
+    <title>RailwayReservationSystem | Admin Dashboard</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@ if(isset($_SESSION['email'])){
         <div class="col-sm-10 mt-2">
           <div id="title">
             <h1><i>Dashboard</i></h1>
-            <p><span class="badge" style="background: #7e2525;">Admin Dashboard - OR2S</span></p>
+            <p><span class="badge" style="background: #7e2525;">Admin Dashboard - RailwayReservationSystem</span></p>
           </div>
 
           <div class="row">

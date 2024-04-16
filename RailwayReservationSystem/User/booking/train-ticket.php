@@ -44,7 +44,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/train-ticket.c
 	<meta name="description" content="Online Railway Reservation System">
 	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OR2S | Ticket</title>
+	<title>RailwayReservationSystem | Ticket</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
@@ -97,7 +97,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/train-ticket.c
 							</table>
 						</div>
 						<div class="train-name">
-							<img src="/or2s/User/images/logo/or2s_white.png" width="150px" style="margin-top: 20px;">
+							<img src="/RailwayReservationSystem/User/images/logo/RailwayReservationSystem_white.png" width="150px" style="margin-top: 20px;">
 							<h4>RANI SHIROMONI SF EXPRESS (18004)</h4>
 						</div>
 						<div class="row">
@@ -147,7 +147,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/train-ticket.c
 					</div>
 
 					<div class="pdf">
-						<img src="https://chart.googleapis.com/chart?cht=qr&chl=OR2S&chs=160x160&chld=L|0" class="qr-code img-thumbnail img-responsive" height="200px">
+						<img src="https://chart.googleapis.com/chart?cht=qr&chl=RailwayReservationSystem&chs=160x160&chld=L|0" class="qr-code img-thumbnail img-responsive" height="200px">
 						<div>
 							<button class="printBtn" onclick="printDiv('ticket')" >Print Ticket</button>
 							<button class="returnBtn"><a href="./myticket.php">Check History</a></button>

@@ -6,7 +6,7 @@
     <div class="col-sm-2">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.php" style="font-size: 20px; font-weight: bold;"><h1><i>OR2S</i></h1></a>
+          <a class="nav-link" href="index.php" style="font-size: 20px; font-weight: bold;"><h1><i>RailwayReservationSystem</i></h1></a>
         </li>
       </ul>
     </div>

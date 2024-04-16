@@ -1,6 +1,6 @@
 <nav class="navbar bg-light sidebar" style="background-color: darkblue !important;">
   <ul class="navbar-nav sidebar-list">
-  <!-- <img src="assets/images/or2s_logo.png"> -->
+  <!-- <img src="assets/images/RailwayReservationSystem_logo.png"> -->
     <li class="nav-item">
           <a class="nav-link" href="../view/dashboard.php">
           <i class='fas fa-home'></i>  Dashboard</a>

@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "or2s";
+$dbname = "RailwayReservationSystem";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname)){
     die("failed to connect!");

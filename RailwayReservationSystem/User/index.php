@@ -27,7 +27,7 @@ if (isset($_SESSION['id'])) {
 <?php include("./header.php"); ?>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="/or2s/User/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="/RailwayReservationSystem/User/css/footer.css" />
 
 	<style>
 		#google_translate_element {
@@ -53,9 +53,9 @@ if (isset($_SESSION['id'])) {
 
 
 		<div class="form-container">
-			<form action="/or2s/User/booking/train-list.php" method="GET">
+			<form action="/RailwayReservationSystem/User/booking/train-list.php" method="GET">
 				<h3><a target="_blank" rel="noopener" href="https://amritmahotsav.nic.in/"><img id="azadi"
-							src="/or2s/User/images/azadi.png" width="90px"></a></i><b> Find Train </b></i></h3>
+							src="/RailwayReservationSystem/User/images/azadi.png" width="90px"></a></i><b> Find Train </b></i></h3>
 				<div id="tnd" style=""><b>
 						<?php
 						date_default_timezone_set('Asia/Kolkata');

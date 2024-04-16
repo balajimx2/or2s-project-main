@@ -25,7 +25,7 @@ echo "<link rel='stylesheet' type='text/css' href='./css/style.css' />";
 		
 
 		<div class="form-container">	
-			<form action="/or2s/User/booking/train-list.php" method="GET">
+			<form action="/RailwayReservationSystem/User/booking/train-list.php" method="GET">
 				<h3><i class="fa fa-road"></i> Find Train <i class="fa fa-train"></i></h3>
 				<div style="">
 					<?php 

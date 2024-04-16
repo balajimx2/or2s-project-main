@@ -8,7 +8,7 @@ $train_class = [];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Train Class</title>
+    <title>RailwayReservationSystem | Train Class</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@ $train_class = [];
           </nav>
           <div id="title">
             <h1>Train Class Lists</h1>
-            <p>All Classes - OR2S</p>
+            <p>All Classes - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add Train Class</button>

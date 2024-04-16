@@ -2,7 +2,7 @@
 $hostname     = "localhost"; // Enter Your Host Name
 $username     = "root";      // Enter Your Table username
 $password     = "";          // Enter Your Table Password
-$databasename = "or2s"; // Enter Your database Name
+$databasename = "RailwayReservationSystem"; // Enter Your database Name
 
 
 $conn = new mysqli($hostname, $username, $password, $databasename);

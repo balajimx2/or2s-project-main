@@ -18,7 +18,7 @@ include("../../User/db/connection.php");
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OR2S | Users</title>
+    <title>RailwayReservationSystem | Users</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,7 +44,7 @@ include("../../User/db/connection.php");
           </nav>
           <div id="title">
             <h1>All Users</h1>
-            <p>All Users Lists - OR2S</p>
+            <p>All Users Lists - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add User</button>

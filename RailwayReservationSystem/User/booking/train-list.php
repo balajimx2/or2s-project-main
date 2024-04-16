@@ -27,10 +27,10 @@ if (isset($_SESSION['id'])) {
 	<meta name="description" content="Online Railway Reservation System">
 	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OR2S | Train List</title>
-	<link rel="icon" type="image/x-icon" href="/or2s/User/images/logo/favicon.png">
+	<title>RailwayReservationSystem | Train List</title>
+	<link rel="icon" type="image/x-icon" href="/RailwayReservationSystem/User/images/logo/favicon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="/or2s/User/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="/RailwayReservationSystem/User/css/footer.css" />
 	<style>
 		#google_translate_element select {
 			background: #fff;
@@ -71,7 +71,7 @@ if (isset($_SESSION['id'])) {
 	<header class="header">
 		<div class="header" id="myHeader">
 			<span class="logo"><a href="../index.php">
-					<img src="/or2s/User/images/logo/or2s_black.png" width="150px">
+					<img src="/RailwayReservationSystem/User/images/logo/RailwayReservationSystem_black.png" width="150px">
 				</a></span>
 			<div class="menu">
 				<ul>
@@ -85,11 +85,11 @@ if (isset($_SESSION['id'])) {
 					<li class="user">
 						<?php
 						if (isset($user_data['f_name'])) {
-							echo '<li><a href="/or2s/User/booking/myticket.php" class=""><i class="fa fa-ticket"></i> MY TICKETS</a></li><li><i class="fa fa-user"></i><b> Welcome, </b>' . $user_data['f_name'] . ' ' . $user_data['l_name'] . '</li>';
+							echo '<li><a href="/RailwayReservationSystem/User/booking/myticket.php" class=""><i class="fa fa-ticket"></i> MY TICKETS</a></li><li><i class="fa fa-user"></i><b> Welcome, </b>' . $user_data['f_name'] . ' ' . $user_data['l_name'] . '</li>';
 							?>
 						</li>
 						<div class="logoutbtn">
-							<li><a href="/or2s/User/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i>
+							<li><a href="/RailwayReservationSystem/User/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i>
 									LOGOUT</a></li>
 						</div>
 					<?php } else { ?>
@@ -338,7 +338,7 @@ if (isset($_SESSION['id'])) {
 	</main>
 	<?php include("../footer.php"); ?>
 	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	<script src="/or2s/User/booking/js/translate.js"></script>
+	<script src="/RailwayReservationSystem/User/booking/js/translate.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

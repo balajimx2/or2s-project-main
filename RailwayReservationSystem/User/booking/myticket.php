@@ -32,7 +32,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/tickets.css' /
 	<meta name="description" content="Online Railway Reservation System">
 	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OR2S | Tickets</title>
+	<title>RailwayReservationSystem | Tickets</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
@@ -40,7 +40,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/tickets.css' /
 	<header class="header">
 		<div class="header" id="myHeader">
 			<span class="logo" style="margin-top: 20px;"><a href="../index.php">
-				<img src="/or2s/User/images/logo/or2s_black.png" width="150px">
+				<img src="/RailwayReservationSystem/User/images/logo/RailwayReservationSystem_black.png" width="150px">
 			</a></span>
 			<div class="menu">
 				<ul>
@@ -58,7 +58,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/tickets.css' /
 					</li>
 					<li><a href="#" class="active"><i class="fa fa-user"></i> MY TICKETS</a></li>
 					<div class="logoutbtn">
-						<li><a href="../or2s/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
+						<li><a href="../RailwayReservationSystem/auth/logout.php" class="logout"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
 					</div>
 					<?php }else { ?>
 						<div class="button">
@@ -168,7 +168,7 @@ echo "<link rel='stylesheet' type='text/css' href='../booking/css/tickets.css' /
 									<td><?php echo $row['seat_no']; ?></td>
 									<td style="background: green;color: #fff;"><b>Confirmed (CNF)</b></td>
 									<td>
-										<button class="printBtn"><a target="_blank" href="/or2s/User/booking/train-ticket.php">Check Ticket</a></button>
+										<button class="printBtn"><a target="_blank" href="/RailwayReservationSystem/User/booking/train-ticket.php">Check Ticket</a></button>
 									</td>
 									
 								</tr>

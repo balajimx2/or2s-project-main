@@ -5,7 +5,7 @@ style="background-color: #7e2525 !important;border-bottom-right-radius: 30px;bor
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="../index.php">
-            <img src="../../User/images/logo/or2s_white.png" height="100%" width="100%"
+            <img src="../../User/images/logo/RailwayReservationSystem_white.png" height="100%" width="100%"
             style="margin-left: -20px;"
             />
           </a>

@@ -48,7 +48,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 	<title>Register</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	<link rel="icon" type="image/x-icon" href="/or2s/User/images/register/reg2.png">
+	<link rel="icon" type="image/x-icon" href="/RailwayReservationSystem/User/images/register/reg2.png">
 	<link rel="stylesheet" type="text/css" href="./css/register.css" />
 	<style>
 		#google_translate_element{
@@ -70,13 +70,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		</div>
 				</div>
 			<div class="column">
-				<img id="logo" src="/or2s/User/images/logo/or2s_black.png">
+				<img id="logo" src="/RailwayReservationSystem/User/images/logo/RailwayReservationSystem_black.png">
 			</div>
 		
 		
 	    
 		</div>
-			<h3><img id="reg"src="/or2s/User/images/register/reg.gif"></h3>
+			<h3><img id="reg"src="/RailwayReservationSystem/User/images/register/reg.gif"></h3>
 			<div id="note">
 			• All the (<font color="red">*</font>) marked fields are mandatory.
             </div>
@@ -224,7 +224,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/register.js"></script>
-	<script src="/or2s/User/script.js"></script>
+	<script src="/RailwayReservationSystem/User/script.js"></script>
 	<script type="text/javascript">
 $(function(){
         var dtToday = new Date();

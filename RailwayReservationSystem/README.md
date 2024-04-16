@@ -1,5 +1,5 @@
 <h1 align="center">
- <p> OR2S</p> [Online Railway Reservation System]<br/>
+ <p> RailwayReservationSystem</p> [Online Railway Reservation System]<br/>
   
 </h1>
 
@@ -17,12 +17,12 @@
 </div>
 <h3 align="center">
     🔹
-    <a href="https://github.com/rak3xh/or2s-project/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/rak3xh/RailwayReservationSystem-project/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/rak3xh/or2s-project/issues">Request Feature</a>
+    <a href="https://github.com/rak3xh/RailwayReservationSystem-project/issues">Request Feature</a>
 </h3>
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [rak3xh](https://github.com/rak3xh/or2s-project). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [rak3xh](https://github.com/rak3xh/RailwayReservationSystem-project). Thanks!
 
 ##
 
@@ -76,11 +76,11 @@ Clone down this repository. You will need `git` and `XAMPP` installed in your sy
 
 1. Open XAMPP server app and start both `MySQL` port and `Apache` port.
 
-2. Open [phpMyAdmin](http://localhost/phpmyadmin/) website and create a new sql database naming `or2s`.
+2. Open [phpMyAdmin](http://localhost/phpmyadmin/) website and create a new sql database naming `RailwayReservationSystem`.
 
-3. Import `User/db/or2s.sql` file from the cloned folder to phpMyAdmin database naming or2s.
-4. Open `C:/xampp/htdocs` folder in your system and copy paste the entire or2s folder over there.
-5. Open your browser and paste the link [or2s](http://localhost/or2s/user/)
+3. Import `User/db/RailwayReservationSystem.sql` file from the cloned folder to phpMyAdmin database naming RailwayReservationSystem.
+4. Open `C:/xampp/htdocs` folder in your system and copy paste the entire RailwayReservationSystem folder over there.
+5. Open your browser and paste the link [RailwayReservationSystem](http://localhost/RailwayReservationSystem/user/)
 
 Runs the website in your browser smoothly and you can enjoy all the features of it.
 

@@ -25,7 +25,7 @@
           </nav>
           <div id="title">
             <h1>Reservation Lists</h1>
-            <p>All Reserved Ticket Lists - OR2S</p>
+            <p>All Reserved Ticket Lists - RailwayReservationSystem</p>
           </div>
 
           <button type="button" class="btn btn-success">+ Add Reservation</button>
